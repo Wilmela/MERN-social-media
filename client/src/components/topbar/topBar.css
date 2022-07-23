@@ -1,0 +1,90 @@
+.topBar {
+  width: 100%;
+  height: 50px;
+  background: darkblue;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 999;
+}
+
+.topBarLeft {
+  flex: 3;
+  color: #fff;
+}
+.logo {
+  font-weight: 500;
+  cursor: pointer;
+}
+.topBarCenter {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.topBarSearch {
+  font-size: 18px !important;
+  margin-left: 10px;
+}
+.topBarInput {
+  width: 70%;
+  border: none;
+  padding: 5px;
+}
+.topBarInput:focus {
+  outline: none;
+}
+.topBarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+.topBarLinks {
+  display: flex;
+  align-items: center;
+}
+.topBarLinkItem {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.topBarRightIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.topBarRightIcon {
+  position: relative;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.topBarRightCounter {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.topBarProfileImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
